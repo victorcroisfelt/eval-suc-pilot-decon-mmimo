@@ -13,7 +13,7 @@ If you have any questions and if you have encountered any inconsistency, please 
 ## Abstract
 The demand for higher data rates can be satisfied by the spectral efficiency (SE) improvement offered by Massive multiple-input multiple-output (M-MIMO) systems. However, the pilot contamination remains as a fundamental issue to obtain the paramount SE in such systems. This propitiated the research of several methods to mitigate pilot contamination. One of these procedures is based on the coordination of the cells, culminating in proposals with multiple pilot training phases. This paper aims to expand the results of the original paper, whereby the concepts of large pilot training phases were offered. The evaluation of such method was conducted through more comprehensible numerical results, in which a large number of antennas were assumed and more rigorous SE expressions were used. The channel estimation approaches relying on multiple pilot training phases were considered cumbersome for implementation and an uninteresting solution to overcome pilot contamination; contradicting the results presented in the genuine paper.
 
-## What is included here?
+## Content
 From this code package, all figures reported in the above article can be simulated. To do this, you can run the script "simulationAllFigures.m", which, in its turn, calls the files labeled with "function" in their names. Further details about each file can be found inside them.
 
 ## Citing this Repository and License
