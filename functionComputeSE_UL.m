@@ -25,37 +25,33 @@ function [SE_class_sc,SE_class,SE_eval1,SE_eval2] = functionComputeSE_UL(L,M,K,t
 %   taupl: Length of the pilots for the multi pilot training scenario.
 %   rhoul: Uplink transmit power per UE (same for everyone).
 %   betas: K x L matrix with the average large-scale coefficient of the 
-%          users over the entire system in relation to the center cell. 
-
+%   users over the entire system in relation to the center cell. 
 %   psis_class_sc: K x 1 vector with the average variance of the users'
-%                  channel estimate over the entire system in relation to 
-%                  the center cell for the classical scheme considering 
-%                  only cell j. 
+%   channel estimate over the entire system in relation to the center cell 
+%   for the classical scheme considering only cell j. 
 %   psis_class: K x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to 
-%               the center cell for the classical scheme.  
+%   channel estimate over the entire system in relation to the center cell
+%   for the classical scheme.  
 %   psis_eval1: K/L x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to 
-%               the center cell for the proposed scheme 1 (multiple  
-%               pilot training phases).
+%   channel estimate over the entire system in relation to the center cell 
+%   for the proposed scheme 1 (multiple pilot training phases).
 %   psis_eval2: K/L x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to 
-%               the center cell for the proposed scheme 2 (multiple  
-%               pilot training phases).
+%   channel estimate over the entire system in relation to the center cell
+%   for the proposed scheme 2 (multiple pilot training phases).
 %
 %@Outputs:
 %   SE_class_sc: K x 1 vector where element (k,1) is the uplink SE of UE k 
-%               in cell j achieved with MR combining for the classical 
-%               estimation approach considering only the operation of BS j.
+%   in cell j achieved with MR combining for the classical estimation 
+%   approach considering only the operation of BS j.
 %   SE_class: K x 1 vector where element (k,1) is the uplink SE of UE k 
-%             in cell j achieved with MR combining for the classical 
-%             estimation approach.
+%   in cell j achieved with MR combining for the classical estimation 
+%   approach.
 %   SE_eval1: K/L x 1 vector where element (k,1) is the uplink SE of UE  
-%             k in cell j achieved with MR combining for the #1 proposed 
-%             estimation approach considering only the operation of BS j.
+%   k in cell j achieved with MR combining for the #1 proposed estimation 
+%   approach considering only the operation of BS j.
 %   SE_eval2: K/L x 1 vector where element (k,1) is the uplink SE of UE  
-%             k in cell j achieved with MR combining for the #2 proposed 
-%             estimation approach considering only the operation of BS j.
+%   k in cell j achieved with MR combining for the #2 proposed estimation
+%   approach considering only the operation of BS j.
 %
 %References:
 %[1] Emil Bjornson, Jakob Hoydis and Luca Sanguinetti (2017), "Massive MIMO

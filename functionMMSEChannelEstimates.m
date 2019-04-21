@@ -23,36 +23,31 @@ function [taup,taupl,psis_class_sc,psis_class,psis_eval1,psis_eval2,NMSE_class_s
 %   K: Number of UEs per cell.
 %   rhoul: Uplink transmit power per UE (same for every user).
 %   betas: K x L matrix with the average large-scale coefficient of the
-%          users over the entire system in relation to the center cell.
+%   users over the entire system in relation to the center cell.
 %
 %@Outputs:
 %   taup: Length of the pilots.
 %   taupl: Length of the pilots for the multi pilot training scenario.
 %   psis_class_sc: K x 1 vector with the average variance of the users'
-%                  channel estimate over the entire system in relation to
-%                  the center cell for the classical scheme considering
-%                  only cell j.
+%   channel estimate over the entire system in relation to the center cell
+%   for the classical scheme considering only cell j.
 %   psis_class: K x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to the
-%               center cell for the classical scheme.
+%   channel estimate over the entire system in relation to the center cell 
+%   for the classical scheme.
 %   psis_eval1: K/L x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to the
-%               center cell for the evaluated scheme 1 (multiple pilot
-%               training phases).
+%   channel estimate over the entire system in relation to the center cell
+%   for the evaluated scheme 1 (multiple pilot training phases).
 %   psis_eval2: K/L x L matrix with the average variance of the users'
-%               channel estimate over the entire system in relation to the
-%               center cell for the evaluated scheme 2 (multiple pilot
-%               training phases).
+%   channel estimate over the entire system in relation to the center cell
+%   for the evaluated scheme 2 (multiple pilot training phases).
 %   NMSE_class_sc: K x 1 vector with the NMSE of each user in relation to
-%                  cell j for the classical scheme.
+%   cell j for the classical scheme.
 %   NMSE_class: K x L matrix with the NMSE of each user in relation to cell
-%               j for the classical scheme considering only cell j.
+%   j for the classical scheme considering only cell j.
 %   NMSE_eval1: K/L x L matrix with the NMSE of each user in relation to
-%               cell j for the evaluated scheme 1 (multiple pilot training
-%               phases).
+%   cell j for the evaluated scheme 1 (multiple pilot training phases).
 %   NMSE_eval2: K/L x L matrix with the NMSE of each user in relation to
-%               cell j for the evaluated scheme 2 (multiple pilot training
-%               phases).
+%   cell j for the evaluated scheme 2 (multiple pilot training phases).
 %
 %References:
 %[1] Emil Bjornson, Jakob Hoydis and Luca Sanguinetti (2017), "Massive MIMO
