@@ -2,7 +2,7 @@
 
 This is a research-oriented code package that is primarily intended to allow readers to replicate the results of the article mentioned below and also encourage and accelerate further research on this topic:
 
-Victor Croisfelt Rodrigues and Taufik Abrão, "[An Evaluation of Successive Pilot Decontamination in Massive MIMO](https://doi.org/10.5433/1679-0375.2018v39n2p10)", Semina: Ciências Exatas e Tecnológicas, Londrina, v. 39, n. 2, ago./dez. 2018. 
+Victor Croisfelt Rodrigues and Taufik Abrão, "[An Evaluation of Successive Pilot Decontamination in Massive MIMO](https://doi.org/10.5433/1679-0375.2018v39n2p10)", Semina: Ciências Exatas e Tecnológicas, Londrina, Brazil, v. 39, n. 2, ago./dez. 2018. 
 
 The package is based on the Matlab language and can, in fact, reproduce all the numerical results and figures discussed in the article. To contextualize, in the sequel, we present the abstract of the article and other important information.
 
