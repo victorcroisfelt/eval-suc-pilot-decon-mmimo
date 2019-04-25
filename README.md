@@ -17,7 +17,7 @@ The demand for higher data rates can be satisfied by the spectral efficiency (SE
 From this code package, all figures reported in the above article can be simulated. To do this, you can run the script "simulationAllFigures.m", which, in its turn, calls the files labeled with "function" in their names. Further details about each file can be found inside them.
 
 ## Citing this Repository and License
-This code is licensed under the GPLv3 license. If you use any part of this repository for research, please consider to cite our aforementioned work.
+This code is subject to the GPLv3 license. If you use any part of this repository for research, please consider to cite our aforementioned work.
 
 ## Acknowledgments
 This work was supported in part by the Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) of Brazil under Grant 102050/2018-0, and in part by by the Universidade Estadual de Londrina (UEL), Paraná State Government under the PIBITI grant of the public notice 02/2018.
